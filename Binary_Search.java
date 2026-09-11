@@ -14,7 +14,9 @@ Last Modified: September 9, 2026
 Version: 1.2
 
 [Acknowledgements: Original Binary Search program provided by the instructor.
-www.geeksforgeeks.org and generative AI was used for explanation and code assistance.]
+Geeksforgeeks and generative AI was used for explanation and code assistance.
+AI Prompt used: "Help me understand the given Binary Search program
+according to the laboratory activity requirements."]
 */
 
 public class Binary_Search {
@@ -27,7 +29,7 @@ public class Binary_Search {
         }
 		
         // Find the middle index
-        int mid = low + (high - low) / 2;
+        int mid = low + (high - low) / 2; 
         
         //Display recursive trace
         System.out.println("\nbinarySearch: (" +low+ ", " + high+ ", " + target + ")");
@@ -90,3 +92,6 @@ public class Binary_Search {
         sc.close();
     }
 }
+
+
+
